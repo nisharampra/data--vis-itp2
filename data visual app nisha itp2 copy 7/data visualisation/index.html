@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Case study 2: Data visualisation</title>
+
+  <!--p5 Libraries -->
+  <script src="lib/p5.min.js"></script>
+  <script src="lib/p5.dom.min.js"></script>
+  <!-- chart JS -->
+  <script src="lib/chart.min.js"></script>
+  <!-- Leaflet CSS link-->
+  <link rel="stylesheet" href="lib/leaflet file/leaflet.css" />
+  <!-- leaflet Libraries js -->
+  <script src="lib/leaflet file/leaflet.js"></script>
+  <!-- mappa.js Lib link -->
+  <script src="lib/mappa.js"></script>
+
+  <!-- mainstyle sheet -->
+  <link rel="stylesheet" href="style.css" />
+
+  <!-- Main sketch file -->
+  <script src="sketch.js"></script>
+
+  <!-- Main visualisation files -->
+  <script src="tech-diversity-race.js"></script>
+  <script src="tech-diversity-gender.js"></script>
+  <script src="pay-gap-by-job-2017.js"></script>
+  <script src="pay-gap-1997-2017.js"></script>
+  <script src="climate-change.js"></script>
+  <script src="sg-population.js"></script>
+  <script src="waffle-chart.js"></script>
+  <script src="starbucks.js"></script>
+  <script src="pieLovers.js"></script>
+  <script src="nutrients-1974-2016.js"></script>
+  <script src="british-food-attitides.js"></script>
+  <script src="food.js"></script>
+
+
+  <!-- Add extra scripts below -->
+  <script src="helper-functions.js"></script>
+  <script src="gallery.js"></script>
+  <script src="pie-chart.js"></script>
+  <script src="box.js"></script>
+  <script src="waffle.js"></script>
+  <script src="bubble.js"></script>
+
+</head>
+
+<body>
+  <div id="app" class="container">
+    <ul id="visuals-menu"></ul>
+
+    <!-- for sg-population -->
+    <canvas id="canvas">
+      <!--The chart will be generated here-->
+    </canvas>
+    <!-- end of sg-population -->
+
+    <!-- for the starbucks in sg -->
+    <div id="stage"></div>
+    <!-- end of starbucks in sg -->
+
+  </div>
+  <!-- For food (bubble chart) -->
+  <div id='years'></div>
+
+</body>
+
+</html>

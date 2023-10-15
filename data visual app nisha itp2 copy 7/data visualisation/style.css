@@ -1,0 +1,35 @@
+body{
+    font-family: sans-serif;
+    background:rgb(255, 192, 203);
+
+}
+
+
+.menu-item {
+  width: 260px;
+  height: 45px;
+  border: 1px solid rgb(14, 14, 14);
+  list-style-type: none;
+  padding: 9px;
+  background:pink;
+  border-radius: 50px;
+}
+
+.container {
+  display: flex;
+}
+
+.hover {
+    background:#C4AEAD
+}
+
+.selected{
+    background:peru
+}
+
+
+  #map {
+    height: 700px;
+    width: 600px;
+    margin-bottom: 10px;
+  }
